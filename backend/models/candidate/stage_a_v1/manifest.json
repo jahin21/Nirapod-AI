@@ -1,0 +1,288 @@
+{
+  "status": "candidate_not_promoted",
+  "created_at": "2026-08-08T18:41:04.448126+00:00",
+  "classes": [
+    "laptop",
+    "monitor",
+    "phone",
+    "tablet",
+    "tv_monitor"
+  ],
+  "excluded_classes": [
+    "smart_speaker"
+  ],
+  "counts": {
+    "train": {
+      "laptop": 189,
+      "monitor": 247,
+      "phone": 244,
+      "tablet": 222,
+      "tv_monitor": 204
+    },
+    "validation": {
+      "laptop": 75,
+      "monitor": 75,
+      "phone": 75,
+      "tablet": 11,
+      "tv_monitor": 56
+    },
+    "test": {
+      "laptop": 75,
+      "monitor": 75,
+      "phone": 75,
+      "tablet": 58,
+      "tv_monitor": 75
+    }
+  },
+  "dataset_sha256": "e655bb0a4df6ba67d0607c7d248bf0c6098cd22ffabd23ef21eb44a0d6a10a73",
+  "seed": 42,
+  "architecture": "frozen MobileNetV2 ImageNet transfer learning",
+  "image_size": 160,
+  "epochs_completed": 6,
+  "training_accuracy": 0.6600361466407776,
+  "validation_accuracy": 0.5924657583236694,
+  "best_validation_accuracy": 0.5958904027938843,
+  "temperature": 1.0882339511530308,
+  "validation_calibration": {
+    "before": {
+      "ece": 0.0945731515753759,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "count": 3,
+          "confidence": 0.2702275514602661,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "count": 19,
+          "confidence": 0.35726967453956604,
+          "accuracy": 0.3684210526315789
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 55,
+          "confidence": 0.4501095712184906,
+          "accuracy": 0.5636363636363636
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "count": 59,
+          "confidence": 0.5409502387046814,
+          "accuracy": 0.3728813559322034
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "count": 51,
+          "confidence": 0.6526676416397095,
+          "accuracy": 0.5686274509803921
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "count": 37,
+          "confidence": 0.7442730665206909,
+          "accuracy": 0.7837837837837838
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 45,
+          "confidence": 0.8519721031188965,
+          "accuracy": 0.7555555555555555
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 23,
+          "confidence": 0.9414750933647156,
+          "accuracy": 0.9565217391304348
+        }
+      ]
+    },
+    "after": {
+      "ece": 0.06771190209339743,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "count": 4,
+          "confidence": 0.2732445001602173,
+          "accuracy": 0.0
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "count": 27,
+          "confidence": 0.36385804414749146,
+          "accuracy": 0.4444444444444444
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 63,
+          "confidence": 0.4559573829174042,
+          "accuracy": 0.5079365079365079
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "count": 55,
+          "confidence": 0.5444444417953491,
+          "accuracy": 0.43636363636363634
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "count": 51,
+          "confidence": 0.6475932598114014,
+          "accuracy": 0.5686274509803921
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "count": 36,
+          "confidence": 0.748716413974762,
+          "accuracy": 0.8055555555555556
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 38,
+          "confidence": 0.8425197601318359,
+          "accuracy": 0.8157894736842105
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 18,
+          "confidence": 0.9336267113685608,
+          "accuracy": 0.9444444444444444
+        }
+      ]
+    }
+  },
+  "test_accuracy": 0.5195530726256983,
+  "test_classification_report": {
+    "laptop": {
+      "precision": 0.5576923076923077,
+      "recall": 0.38666666666666666,
+      "f1-score": 0.4566929133858268,
+      "support": 75.0
+    },
+    "monitor": {
+      "precision": 0.42857142857142855,
+      "recall": 0.44,
+      "f1-score": 0.4342105263157895,
+      "support": 75.0
+    },
+    "phone": {
+      "precision": 0.6111111111111112,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.6666666666666666,
+      "support": 75.0
+    },
+    "tablet": {
+      "precision": 0.4642857142857143,
+      "recall": 0.4482758620689655,
+      "f1-score": 0.45614035087719296,
+      "support": 58.0
+    },
+    "tv_monitor": {
+      "precision": 0.5180722891566265,
+      "recall": 0.5733333333333334,
+      "f1-score": 0.5443037974683544,
+      "support": 75.0
+    },
+    "accuracy": 0.5195530726256983,
+    "macro avg": {
+      "precision": 0.5159465701634376,
+      "recall": 0.5163218390804598,
+      "f1-score": 0.5116028509427661,
+      "support": 358.0
+    },
+    "weighted avg": {
+      "precision": 0.5183997392972959,
+      "recall": 0.5195530726256983,
+      "f1-score": 0.5142365450799582,
+      "support": 358.0
+    }
+  },
+  "test_confusion_matrix": [
+    [
+      29,
+      18,
+      16,
+      7,
+      5
+    ],
+    [
+      7,
+      33,
+      5,
+      8,
+      22
+    ],
+    [
+      0,
+      5,
+      55,
+      12,
+      3
+    ],
+    [
+      6,
+      6,
+      10,
+      26,
+      10
+    ],
+    [
+      10,
+      15,
+      4,
+      3,
+      43
+    ]
+  ],
+  "artifact_sha256": "819484138311d6c7d6cdb8820f4056cc7c921a72590ec5aed9dd6059e95565d6",
+  "limitations": [
+    "This model classifies five known-safe device categories; it does not detect hidden cameras.",
+    "The tablet validation split has only 11 images, so its validation estimate is high-variance.",
+    "Image-level Open Images labels may describe small or incidental objects and require manual review.",
+    "The candidate has not been integrated into or promoted within the release application."
+  ]
+}

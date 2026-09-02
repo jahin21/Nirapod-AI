@@ -1,0 +1,79 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Local ML dataset workspaces and draft labels (large/private, never source)
+/.venv-data/
+/candidate_data/
+/source_objects/
+/unlabeled/
+/draft_labels*.jsonl
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Secrets - never commit real environment values
+.env
+*.env
+!.env.example
+backend/.env
+
+# Backend virtual environment (large, machine-specific)
+.venv/
+backend/.venv/
+__pycache__/
+backend/__pycache__/
+*.pyd
+
+# Local SQLite database (real user data - scans, chats, accounts)
+*.db
+backend/nirapod.db
+backend/nirapod.db-journal
+
+# Local logs
+*.log
+server.log
+server.err.log
+flutter_analyze_verbose.log
+flutter_analyze_verbose.err.log
+flutter_test.log
+flutter_test.err.log

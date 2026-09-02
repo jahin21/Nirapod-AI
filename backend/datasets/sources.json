@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {
+      "id": "uci-phiusiil-967",
+      "task": "url_phishing",
+      "source": "https://archive.ics.uci.edu/dataset/967/phiusil-phishing-url-dataset",
+      "license": "CC BY 4.0",
+      "citation": "Prasad, A. & Chandra, S. (2024). PhiUSIIL Phishing URL (Website). UCI Machine Learning Repository.",
+      "expected_file": "raw/PhiUSIIL_Phishing_URL_Dataset.csv",
+      "label_note": "Source label 1 is legitimate and 0 is phishing; training converts phishing to 1."
+    },
+    {
+      "id": "uci-sms-spam-228",
+      "task": "message_spam",
+      "source": "https://archive.ics.uci.edu/dataset/228/sms-spam-collection",
+      "license": "CC BY 4.0",
+      "citation": "Almeida, T. & Hidalgo, J. (2011). SMS Spam Collection. UCI Machine Learning Repository.",
+      "expected_file": "raw/SMSSpamCollection",
+      "label_note": "Source labels are ham and spam. Spam is not automatically relabelled as phishing."
+    },
+    {
+      "id": "phishtank-online-valid",
+      "task": "url_external_validation_phishing",
+      "source": "https://phishtank.org/developer_info.php",
+      "license": "PhishTank developer feed terms and rate limits apply",
+      "citation": "PhishTank, operated by Cisco Talos Intelligence Group",
+      "expected_file": "validation/online-valid.csv",
+      "label_note": "Only rows marked verified=yes and online=yes are accepted."
+    },
+    {
+      "id": "tranco-latest-standard",
+      "task": "url_external_validation_legitimate",
+      "source": "https://tranco-list.eu/top-1m.csv.zip",
+      "citation": "Le Pochat et al. Tranco: A Research-Oriented Top Sites Ranking Hardened Against Manipulation.",
+      "expected_file": "validation/top-1m.csv",
+      "label_note": "Popular domains are a benign proxy, not a guarantee that every page is safe. Record the permanent list ID."
+    },
+    {
+      "id": "openphish-community",
+      "task": "url_external_validation_phishing_fallback",
+      "source": "https://openphish.com/feed.txt",
+      "license": "OpenPhish Community Feed Terms of Use apply",
+      "citation": "OpenPhish Community Phishing Feed",
+      "expected_file": "validation/openphish-feed.txt",
+      "label_note": "Current limited community feed used when the PhishTank feed is rate-limited."
+    }
+  ]
+}

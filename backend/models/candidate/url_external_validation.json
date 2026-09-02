@@ -1,0 +1,146 @@
+{
+  "created_at": "2026-08-08T16:08:02.832407+00:00",
+  "status": "not_eligible",
+  "dataset": {
+    "phishing_source": "OpenPhish Community Feed",
+    "legitimate_source": "Tranco latest standard list",
+    "training_domains_excluded": 166284,
+    "phishing_samples": 106,
+    "legitimate_samples": 106
+  },
+  "candidate": {
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "pr_auc": 0.9768960142004086,
+    "false_positive_rate": 1.0,
+    "false_negative_rate": 0.0,
+    "calibration_error": 0.4973550737999354,
+    "latency_ms_average": 2.3682721676897995,
+    "latency_ms_p95": 3.8420149823650718,
+    "confusion_matrix": [
+      [
+        0,
+        106
+      ],
+      [
+        0,
+        106
+      ]
+    ],
+    "samples": 212
+  },
+  "embedded_baseline": {
+    "accuracy": 0.6556603773584906,
+    "precision": 0.9714285714285714,
+    "recall": 0.32075471698113206,
+    "f1": 0.48226950354609927,
+    "pr_auc": 0.9566661466194488,
+    "false_positive_rate": 0.009433962264150943,
+    "false_negative_rate": 0.6792452830188679,
+    "calibration_error": 0.2946933962264151,
+    "latency_ms_average": 4.232249998889494,
+    "latency_ms_p95": 6.2173099926440045,
+    "confusion_matrix": [
+      [
+        105,
+        1
+      ],
+      [
+        72,
+        34
+      ]
+    ],
+    "samples": 212
+  },
+  "gates": {
+    "f1_improvement_at_least_0_05": true,
+    "recall_improved": true,
+    "false_positive_rate_at_most_0_02": false,
+    "calibration_error_at_most_0_10": false,
+    "p95_latency_at_most_10ms": true,
+    "all_scenarios_pass": false
+  },
+  "scenario_tests": [
+    {
+      "category": "shortener",
+      "url": "https://bit.ly/account-review",
+      "expected": [
+        "dangerous",
+        "suspicious"
+      ],
+      "baseline": "suspicious",
+      "candidate": "suspicious",
+      "candidate_pass": true
+    },
+    {
+      "category": "punycode",
+      "url": "https://xn--microsft-5za.example/login",
+      "expected": [
+        "dangerous"
+      ],
+      "baseline": "suspicious",
+      "candidate": "suspicious",
+      "candidate_pass": false
+    },
+    {
+      "category": "brand impersonation",
+      "url": "https://paypa1-secure.example.com/login",
+      "expected": [
+        "dangerous"
+      ],
+      "baseline": "suspicious",
+      "candidate": "suspicious",
+      "candidate_pass": false
+    },
+    {
+      "category": "IP destination",
+      "url": "http://185.199.110.153/verify",
+      "expected": [
+        "dangerous"
+      ],
+      "baseline": "dangerous",
+      "candidate": "dangerous",
+      "candidate_pass": true
+    },
+    {
+      "category": "malformed",
+      "url": "not a valid destination",
+      "expected": [
+        "dangerous",
+        "inconclusive"
+      ],
+      "baseline": "dangerous",
+      "candidate": "dangerous",
+      "candidate_pass": true
+    },
+    {
+      "category": "redirect parameter",
+      "url": "https://example.com/redirect?url=http://185.199.110.153/login",
+      "expected": [
+        "dangerous",
+        "suspicious"
+      ],
+      "baseline": "suspicious",
+      "candidate": "suspicious",
+      "candidate_pass": true
+    },
+    {
+      "category": "known official",
+      "url": "https://www.google.com/",
+      "expected": [
+        "safe"
+      ],
+      "baseline": "safe",
+      "candidate": "safe",
+      "candidate_pass": true
+    }
+  ],
+  "artifact_bytes": 4004,
+  "limitations": [
+    "Tranco popularity is a benign proxy and cannot guarantee every page is safe.",
+    "PhishTank represents currently online verified reports and is not every possible phishing campaign.",
+    "DNS and threat-list behaviour is checked separately from these offline model metrics."
+  ]
+}

@@ -1,0 +1,4 @@
+laptop
+phone
+tablet
+screen_display

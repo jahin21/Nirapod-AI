@@ -1,0 +1,2085 @@
+{
+  "model": "backend\\models\\candidate\\stage_a_v3\\room_safe_classifier.tflite",
+  "test_root": "candidate_data\\stage_a_v3_four_class\\test",
+  "classes": [
+    "laptop",
+    "phone",
+    "tablet",
+    "screen_display"
+  ],
+  "selection_rule": "maximum coverage at or above minimum threshold while confident-bucket accuracy is at least target precision",
+  "minimum_threshold_considered": 0.85,
+  "target_confident_precision": 0.9,
+  "chosen_threshold": 0.901572585105896,
+  "total": 290,
+  "confident": 81,
+  "unclassified": 209,
+  "confident_percent": 27.93103448275862,
+  "unclassified_percent": 72.06896551724138,
+  "confident_precision": 0.9012345679012346,
+  "confident_correct": 73,
+  "confident_incorrect": 8,
+  "per_class": {
+    "laptop": {
+      "total": 57,
+      "confident": 6,
+      "coverage": 0.10526315789473684,
+      "confident_precision": 0.6666666666666666
+    },
+    "phone": {
+      "total": 67,
+      "confident": 40,
+      "coverage": 0.5970149253731343,
+      "confident_precision": 0.975
+    },
+    "tablet": {
+      "total": 51,
+      "confident": 5,
+      "coverage": 0.09803921568627451,
+      "confident_precision": 0.4
+    },
+    "screen_display": {
+      "total": 115,
+      "confident": 30,
+      "coverage": 0.2608695652173913,
+      "confident_precision": 0.9333333333333333
+    }
+  },
+  "predictions": [
+    {
+      "image": "01d98b0b68b02134.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.6071772575378418,
+      "correct": false
+    },
+    {
+      "image": "041c3baee925befd.jpg",
+      "actual": "laptop",
+      "predicted": "tablet",
+      "confidence": 0.5728340148925781,
+      "correct": false
+    },
+    {
+      "image": "04475e014c97f62b.jpg",
+      "actual": "laptop",
+      "predicted": "screen_display",
+      "confidence": 0.7537610530853271,
+      "correct": false
+    },
+    {
+      "image": "048b46152eebee01.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.820576548576355,
+      "correct": false
+    },
+    {
+      "image": "04a6eb882c39a5ce.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.8510594367980957,
+      "correct": true
+    },
+    {
+      "image": "0517967a67471731.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.5446037650108337,
+      "correct": true
+    },
+    {
+      "image": "055b3b56ed924815.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.6955239772796631,
+      "correct": false
+    },
+    {
+      "image": "06ab1edfa518076e.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.4523836672306061,
+      "correct": false
+    },
+    {
+      "image": "06e61ebc07e5eebc.jpg",
+      "actual": "laptop",
+      "predicted": "screen_display",
+      "confidence": 0.7028757333755493,
+      "correct": false
+    },
+    {
+      "image": "0918657f4e552af7.jpg",
+      "actual": "laptop",
+      "predicted": "screen_display",
+      "confidence": 0.43103286623954773,
+      "correct": false
+    },
+    {
+      "image": "09ab6b638cd81c41.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.8946458101272583,
+      "correct": true
+    },
+    {
+      "image": "09d68a2e78439419.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.8790906071662903,
+      "correct": true
+    },
+    {
+      "image": "0a2bf9e2f917caf8.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.5367714166641235,
+      "correct": true
+    },
+    {
+      "image": "0a638e9d9a924f5f.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.888992428779602,
+      "correct": true
+    },
+    {
+      "image": "0bee6b7507845d34.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.8965383172035217,
+      "correct": true
+    },
+    {
+      "image": "0c6f7d3d5ef5b862.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.7093967795372009,
+      "correct": true
+    },
+    {
+      "image": "0cf606a8646c4b97.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.5561540126800537,
+      "correct": true
+    },
+    {
+      "image": "0d623eeb602617be.jpg",
+      "actual": "laptop",
+      "predicted": "tablet",
+      "confidence": 0.48994407057762146,
+      "correct": false
+    },
+    {
+      "image": "0e96d6ac9343f825.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.43336910009384155,
+      "correct": true
+    },
+    {
+      "image": "0f12fb0dd77f3e9c.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.8607897758483887,
+      "correct": true
+    },
+    {
+      "image": "11a303c2b9360432.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.9357240796089172,
+      "correct": true
+    },
+    {
+      "image": "1432299368a83ad4.jpg",
+      "actual": "laptop",
+      "predicted": "tablet",
+      "confidence": 0.49001649022102356,
+      "correct": false
+    },
+    {
+      "image": "160d474ed25f3d68.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.6116701364517212,
+      "correct": true
+    },
+    {
+      "image": "16eda848cd4dc979.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.5366621613502502,
+      "correct": false
+    },
+    {
+      "image": "178cedb42261425b.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.8687832355499268,
+      "correct": true
+    },
+    {
+      "image": "1878e10fa132babf.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.6146655678749084,
+      "correct": true
+    },
+    {
+      "image": "188e75fe9f483698.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.6072518825531006,
+      "correct": true
+    },
+    {
+      "image": "1b3ae58cb2adb9af.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.47224512696266174,
+      "correct": true
+    },
+    {
+      "image": "1cb176b5ab13ff99.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.5585950613021851,
+      "correct": true
+    },
+    {
+      "image": "1e4472ec8c79b754.jpg",
+      "actual": "laptop",
+      "predicted": "screen_display",
+      "confidence": 0.5763484239578247,
+      "correct": false
+    },
+    {
+      "image": "1e471949af0ac2f5.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.775711715221405,
+      "correct": true
+    },
+    {
+      "image": "1e5df222e7b48bf8.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.547976553440094,
+      "correct": true
+    },
+    {
+      "image": "1ee52b6f98396aed.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.4533568024635315,
+      "correct": false
+    },
+    {
+      "image": "1efcf77ca6b020ed.jpg",
+      "actual": "laptop",
+      "predicted": "screen_display",
+      "confidence": 0.8101587295532227,
+      "correct": false
+    },
+    {
+      "image": "1f24427d545bd5ca.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.392654687166214,
+      "correct": true
+    },
+    {
+      "image": "1f5bcc4ff6e0e48c.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.8262189030647278,
+      "correct": true
+    },
+    {
+      "image": "20e3ff850a5d4373.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.5531724691390991,
+      "correct": true
+    },
+    {
+      "image": "211c640586e162ac.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.7990127801895142,
+      "correct": true
+    },
+    {
+      "image": "22ff8a252588f3d7.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.7545443177223206,
+      "correct": true
+    },
+    {
+      "image": "237b3f8285bd2086.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.7062832713127136,
+      "correct": true
+    },
+    {
+      "image": "2516b87354b26f7c.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.9262779951095581,
+      "correct": true
+    },
+    {
+      "image": "2568823cee1082d2.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.6936542391777039,
+      "correct": true
+    },
+    {
+      "image": "25dcda2ab4268dd5.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.7316591143608093,
+      "correct": false
+    },
+    {
+      "image": "2629307fc2873a18.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.5445968508720398,
+      "correct": true
+    },
+    {
+      "image": "2680e39d5bf92952.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.9760085344314575,
+      "correct": true
+    },
+    {
+      "image": "27b85950bf478702.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.7909153699874878,
+      "correct": false
+    },
+    {
+      "image": "28c19c63766eaf52.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.8443347811698914,
+      "correct": true
+    },
+    {
+      "image": "2a7f66464242753b.jpg",
+      "actual": "laptop",
+      "predicted": "screen_display",
+      "confidence": 0.9645092487335205,
+      "correct": false
+    },
+    {
+      "image": "2b73260fcddd14d9.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.504699170589447,
+      "correct": true
+    },
+    {
+      "image": "2bb198e99eb2b8ba.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.8316445350646973,
+      "correct": true
+    },
+    {
+      "image": "2d336862d1e5f5b7.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.9330136179924011,
+      "correct": false
+    },
+    {
+      "image": "2da153f9ad6ca85f.jpg",
+      "actual": "laptop",
+      "predicted": "screen_display",
+      "confidence": 0.8842726945877075,
+      "correct": false
+    },
+    {
+      "image": "2e3b7194f1fb832e.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.9358594417572021,
+      "correct": true
+    },
+    {
+      "image": "30fbec4e8c9fb7ba.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.7728838324546814,
+      "correct": true
+    },
+    {
+      "image": "31e0383b18a48a63.jpg",
+      "actual": "laptop",
+      "predicted": "laptop",
+      "confidence": 0.7696688771247864,
+      "correct": true
+    },
+    {
+      "image": "31e5c48c76dacacd.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.656212568283081,
+      "correct": false
+    },
+    {
+      "image": "33197167093888ee.jpg",
+      "actual": "laptop",
+      "predicted": "phone",
+      "confidence": 0.695611834526062,
+      "correct": false
+    },
+    {
+      "image": "00d8bf5411fdfe51.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.925201952457428,
+      "correct": true
+    },
+    {
+      "image": "012161ba1f688d43.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9769836068153381,
+      "correct": true
+    },
+    {
+      "image": "0133239017fa03d7.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9726054072380066,
+      "correct": true
+    },
+    {
+      "image": "0192deb7b7fade4c.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.993253767490387,
+      "correct": true
+    },
+    {
+      "image": "01ac026097ecc699.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.7747601866722107,
+      "correct": true
+    },
+    {
+      "image": "01bfc6a5c53e5086.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9971625208854675,
+      "correct": true
+    },
+    {
+      "image": "037753b46a434578.jpg",
+      "actual": "phone",
+      "predicted": "screen_display",
+      "confidence": 0.490164190530777,
+      "correct": false
+    },
+    {
+      "image": "0403eebf8c0aac60.jpg",
+      "actual": "phone",
+      "predicted": "tablet",
+      "confidence": 0.5980422496795654,
+      "correct": false
+    },
+    {
+      "image": "04a504fe281c930e.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9877471923828125,
+      "correct": true
+    },
+    {
+      "image": "04cdaa5cff6efc2c.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9979709982872009,
+      "correct": true
+    },
+    {
+      "image": "04e9f42b51f842aa.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.7992399334907532,
+      "correct": true
+    },
+    {
+      "image": "051a95013a8ca693.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.7124414443969727,
+      "correct": true
+    },
+    {
+      "image": "068b6cd2ceef28c0.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.6975919604301453,
+      "correct": true
+    },
+    {
+      "image": "06a1131d642da3e4.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9117568731307983,
+      "correct": true
+    },
+    {
+      "image": "06a9e0241447de9d.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9197738766670227,
+      "correct": true
+    },
+    {
+      "image": "0732662db082423f.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.6928907036781311,
+      "correct": true
+    },
+    {
+      "image": "07896440cd7993a3.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9951465725898743,
+      "correct": true
+    },
+    {
+      "image": "08f071ae4389a903.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9384076595306396,
+      "correct": true
+    },
+    {
+      "image": "09126fdfbc0a58fd.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.8115366697311401,
+      "correct": true
+    },
+    {
+      "image": "091fd0f4661b5d8c.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9858916401863098,
+      "correct": true
+    },
+    {
+      "image": "09abca0b779a8b9f.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.975459098815918,
+      "correct": true
+    },
+    {
+      "image": "0b2e303697ae3875.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.8918432593345642,
+      "correct": true
+    },
+    {
+      "image": "0bccf77baa84e121.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.6918185949325562,
+      "correct": true
+    },
+    {
+      "image": "0c7b37d0bd3417b9.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9704611301422119,
+      "correct": true
+    },
+    {
+      "image": "0ce07313dcca1f15.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9897419214248657,
+      "correct": true
+    },
+    {
+      "image": "0d89ce4a8c717e35.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9412803053855896,
+      "correct": true
+    },
+    {
+      "image": "1091dad2b397e667.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.984121561050415,
+      "correct": true
+    },
+    {
+      "image": "1098559cebaafd9e.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.5581068992614746,
+      "correct": true
+    },
+    {
+      "image": "10b26e73005f3aa0.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9592903852462769,
+      "correct": true
+    },
+    {
+      "image": "1168519d66c897a6.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9914845824241638,
+      "correct": true
+    },
+    {
+      "image": "11c2df3211386cc4.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9576058387756348,
+      "correct": true
+    },
+    {
+      "image": "129864e9047a100c.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9816228151321411,
+      "correct": true
+    },
+    {
+      "image": "149a5bf3d8cc976b.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9662938117980957,
+      "correct": true
+    },
+    {
+      "image": "14eaab08037c5b17.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.6869185566902161,
+      "correct": true
+    },
+    {
+      "image": "155432a9774d37ee.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9955902099609375,
+      "correct": true
+    },
+    {
+      "image": "15940a27025e978e.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9948102235794067,
+      "correct": true
+    },
+    {
+      "image": "15b3ada6aff20a15.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.816616415977478,
+      "correct": true
+    },
+    {
+      "image": "1638e87d5e6eec91.jpg",
+      "actual": "phone",
+      "predicted": "screen_display",
+      "confidence": 0.5141201615333557,
+      "correct": false
+    },
+    {
+      "image": "168850c40ad1897e.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.5726243853569031,
+      "correct": true
+    },
+    {
+      "image": "16da2a10b68f1363.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.7653868198394775,
+      "correct": true
+    },
+    {
+      "image": "172b9af619c16829.jpg",
+      "actual": "phone",
+      "predicted": "tablet",
+      "confidence": 0.47789427638053894,
+      "correct": false
+    },
+    {
+      "image": "17df70074db67118.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.45575547218322754,
+      "correct": true
+    },
+    {
+      "image": "17dfde95b81efae9.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.5631347894668579,
+      "correct": true
+    },
+    {
+      "image": "183ccb43204c3426.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9744585752487183,
+      "correct": true
+    },
+    {
+      "image": "1848f34d1a7f2c88.jpg",
+      "actual": "phone",
+      "predicted": "tablet",
+      "confidence": 0.4085606038570404,
+      "correct": false
+    },
+    {
+      "image": "1890b69a84164766.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.972887396812439,
+      "correct": true
+    },
+    {
+      "image": "19b0309b333db986.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9702648520469666,
+      "correct": true
+    },
+    {
+      "image": "19e4a68a0aec2211.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9109668135643005,
+      "correct": true
+    },
+    {
+      "image": "1a89514f037d5a87.jpg",
+      "actual": "phone",
+      "predicted": "tablet",
+      "confidence": 0.9499328136444092,
+      "correct": false
+    },
+    {
+      "image": "1b499b5c0f329dfd.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.7367916107177734,
+      "correct": true
+    },
+    {
+      "image": "1b73aad62a517097.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9672625660896301,
+      "correct": true
+    },
+    {
+      "image": "1bf602cf74ed5a4f.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.5394788384437561,
+      "correct": true
+    },
+    {
+      "image": "1c68a2ddcfd55e56.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9994122982025146,
+      "correct": true
+    },
+    {
+      "image": "1cb59a276ff92591.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9923961758613586,
+      "correct": true
+    },
+    {
+      "image": "1d13f7c619628f8a.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9886101484298706,
+      "correct": true
+    },
+    {
+      "image": "1e3224976bce8a49.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9950709342956543,
+      "correct": true
+    },
+    {
+      "image": "1fb15f9efe2542df.jpg",
+      "actual": "phone",
+      "predicted": "tablet",
+      "confidence": 0.9005492329597473,
+      "correct": false
+    },
+    {
+      "image": "1fd3cc9973ca6d8d.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9778734445571899,
+      "correct": true
+    },
+    {
+      "image": "1fea3becc6687583.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.4420398473739624,
+      "correct": true
+    },
+    {
+      "image": "20e5f36ace9cde48.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.968669593334198,
+      "correct": true
+    },
+    {
+      "image": "211ff3467db82956.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.5665491223335266,
+      "correct": true
+    },
+    {
+      "image": "217810dd260088d1.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9848772287368774,
+      "correct": true
+    },
+    {
+      "image": "21e15c465eb881ed.jpg",
+      "actual": "phone",
+      "predicted": "tablet",
+      "confidence": 0.7307851314544678,
+      "correct": false
+    },
+    {
+      "image": "224cf3448b92b198.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9317322373390198,
+      "correct": true
+    },
+    {
+      "image": "2264938b3ffba3f9.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9863714575767517,
+      "correct": true
+    },
+    {
+      "image": "228697d0834e5022.jpg",
+      "actual": "phone",
+      "predicted": "tablet",
+      "confidence": 0.6032955646514893,
+      "correct": false
+    },
+    {
+      "image": "232c131b2a688b96.jpg",
+      "actual": "phone",
+      "predicted": "phone",
+      "confidence": 0.9915503263473511,
+      "correct": true
+    },
+    {
+      "image": "05501a554d18d66d.jpg",
+      "actual": "tablet",
+      "predicted": "phone",
+      "confidence": 0.5597489476203918,
+      "correct": false
+    },
+    {
+      "image": "074e8355b3bddaae.jpg",
+      "actual": "tablet",
+      "predicted": "laptop",
+      "confidence": 0.6869279742240906,
+      "correct": false
+    },
+    {
+      "image": "11722dcff9a10ece.jpg",
+      "actual": "tablet",
+      "predicted": "phone",
+      "confidence": 0.6424086093902588,
+      "correct": false
+    },
+    {
+      "image": "1725834493d5b0e3.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.527874231338501,
+      "correct": false
+    },
+    {
+      "image": "1aa13eef03b6779e.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.9134610891342163,
+      "correct": true
+    },
+    {
+      "image": "229229d66b7f3e6c.jpg",
+      "actual": "tablet",
+      "predicted": "phone",
+      "confidence": 0.6868078708648682,
+      "correct": false
+    },
+    {
+      "image": "23ed6b92418d3de9.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.8322376608848572,
+      "correct": true
+    },
+    {
+      "image": "2f441d1f99d1b54f.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.6666593551635742,
+      "correct": true
+    },
+    {
+      "image": "320660e30e2fa6ab.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.6701119542121887,
+      "correct": false
+    },
+    {
+      "image": "3d08a06d60371cf4.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.7676594853401184,
+      "correct": true
+    },
+    {
+      "image": "4052407c81eded9c.jpg",
+      "actual": "tablet",
+      "predicted": "laptop",
+      "confidence": 0.7446809411048889,
+      "correct": false
+    },
+    {
+      "image": "434c0807a71e9c9e.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.5795686841011047,
+      "correct": false
+    },
+    {
+      "image": "44da3b834ef8d2c2.jpg",
+      "actual": "tablet",
+      "predicted": "phone",
+      "confidence": 0.905162513256073,
+      "correct": false
+    },
+    {
+      "image": "4b30fc2c2ca0a34a.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.7290807962417603,
+      "correct": true
+    },
+    {
+      "image": "4b3e37898c3f626a.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.8277662396430969,
+      "correct": false
+    },
+    {
+      "image": "534315f4b230d49a.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.6405415534973145,
+      "correct": true
+    },
+    {
+      "image": "59ee0fcba4d1b8d3.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.7356645464897156,
+      "correct": true
+    },
+    {
+      "image": "606e91f3aebe0c44.jpg",
+      "actual": "tablet",
+      "predicted": "phone",
+      "confidence": 0.7546274662017822,
+      "correct": false
+    },
+    {
+      "image": "62f61b84b9b78162.jpg",
+      "actual": "tablet",
+      "predicted": "phone",
+      "confidence": 0.9198228716850281,
+      "correct": false
+    },
+    {
+      "image": "704985f35fc46d76.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.5249093174934387,
+      "correct": true
+    },
+    {
+      "image": "77959a5faa8067fd.jpg",
+      "actual": "tablet",
+      "predicted": "laptop",
+      "confidence": 0.5112016797065735,
+      "correct": false
+    },
+    {
+      "image": "7bebe9a7df06d317.jpg",
+      "actual": "tablet",
+      "predicted": "phone",
+      "confidence": 0.7308251857757568,
+      "correct": false
+    },
+    {
+      "image": "7d47bdcf5b995da0.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.7342917919158936,
+      "correct": true
+    },
+    {
+      "image": "7d55005ea7148e1f.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.7519755363464355,
+      "correct": true
+    },
+    {
+      "image": "7ecc8ef0bcb6bfc8.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.4243631064891815,
+      "correct": true
+    },
+    {
+      "image": "838932fef9f0d687.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.3482842743396759,
+      "correct": false
+    },
+    {
+      "image": "8a6aa07b964ef29e.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.6992771029472351,
+      "correct": true
+    },
+    {
+      "image": "93cd5c03afd22538.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.4651819169521332,
+      "correct": true
+    },
+    {
+      "image": "94913227ad2d2549.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.8664406538009644,
+      "correct": true
+    },
+    {
+      "image": "9b82cd93268feabb.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.5325101613998413,
+      "correct": true
+    },
+    {
+      "image": "a05beb23f37d30dd.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.5151718258857727,
+      "correct": false
+    },
+    {
+      "image": "a3b7e90519fd7849.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.7829402089118958,
+      "correct": true
+    },
+    {
+      "image": "a731c907a2080533.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.6680302023887634,
+      "correct": true
+    },
+    {
+      "image": "c4becf9d7f591e76.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.5828213095664978,
+      "correct": true
+    },
+    {
+      "image": "c758ccafa1e7b42b.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.4334416687488556,
+      "correct": true
+    },
+    {
+      "image": "c7d90385f112c5f6.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.7459111213684082,
+      "correct": false
+    },
+    {
+      "image": "c87f3038d904e0e5.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.587601900100708,
+      "correct": true
+    },
+    {
+      "image": "d293cdcdf60e76e6.jpg",
+      "actual": "tablet",
+      "predicted": "phone",
+      "confidence": 0.8918974995613098,
+      "correct": false
+    },
+    {
+      "image": "d5311c617cd3116c.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.9365265369415283,
+      "correct": false
+    },
+    {
+      "image": "d538cc6067e1aa32.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.5073946118354797,
+      "correct": false
+    },
+    {
+      "image": "deccb796da69b488.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.7375249862670898,
+      "correct": true
+    },
+    {
+      "image": "e11219ab90ec384a.jpg",
+      "actual": "tablet",
+      "predicted": "phone",
+      "confidence": 0.5147741436958313,
+      "correct": false
+    },
+    {
+      "image": "e1cc8001564f5cc6.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.6618703007698059,
+      "correct": true
+    },
+    {
+      "image": "e26e8997e17a984f.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.8714035153388977,
+      "correct": true
+    },
+    {
+      "image": "e351221fe66efc18.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.903695821762085,
+      "correct": true
+    },
+    {
+      "image": "e652665817000327.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.49625515937805176,
+      "correct": true
+    },
+    {
+      "image": "e76476fa4e900039.jpg",
+      "actual": "tablet",
+      "predicted": "screen_display",
+      "confidence": 0.4993949234485626,
+      "correct": false
+    },
+    {
+      "image": "e8a5c11912de262e.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.7696729302406311,
+      "correct": true
+    },
+    {
+      "image": "eb1600d55ac2b4f3.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.5073997378349304,
+      "correct": true
+    },
+    {
+      "image": "f03b1296bc19a2fb.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.6870181560516357,
+      "correct": true
+    },
+    {
+      "image": "fd674d76821f5597.jpg",
+      "actual": "tablet",
+      "predicted": "tablet",
+      "confidence": 0.49645212292671204,
+      "correct": true
+    },
+    {
+      "image": "002a72617c3b1335.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.9141885638237,
+      "correct": false
+    },
+    {
+      "image": "0056ffa38a8489b6.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9609070420265198,
+      "correct": true
+    },
+    {
+      "image": "0078c798538a29af.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.46434882283210754,
+      "correct": true
+    },
+    {
+      "image": "011076f00a99e67f.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.837117075920105,
+      "correct": true
+    },
+    {
+      "image": "013349f2622caef5.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7576294541358948,
+      "correct": true
+    },
+    {
+      "image": "0138be05352840a0.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9554638862609863,
+      "correct": true
+    },
+    {
+      "image": "01a4b22028ed8133.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8926101922988892,
+      "correct": true
+    },
+    {
+      "image": "01f118711ba15c0a.jpg",
+      "actual": "screen_display",
+      "predicted": "laptop",
+      "confidence": 0.5358682870864868,
+      "correct": false
+    },
+    {
+      "image": "026591348df5e39d.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5354728698730469,
+      "correct": true
+    },
+    {
+      "image": "027b5c62f38fc44e.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9729602932929993,
+      "correct": true
+    },
+    {
+      "image": "02a9c2709448d6ab.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.842095136642456,
+      "correct": true
+    },
+    {
+      "image": "02ae5a05c48655cd.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5993320941925049,
+      "correct": true
+    },
+    {
+      "image": "03a5e705fc190058.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5591812133789062,
+      "correct": true
+    },
+    {
+      "image": "042df363dfa7e12b.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8282774686813354,
+      "correct": true
+    },
+    {
+      "image": "049b94aee377035e.jpg",
+      "actual": "screen_display",
+      "predicted": "tablet",
+      "confidence": 0.6223447918891907,
+      "correct": false
+    },
+    {
+      "image": "04ccebb0afa5bd0f.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8717445731163025,
+      "correct": true
+    },
+    {
+      "image": "050c33f7d251cfdd.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7614522576332092,
+      "correct": true
+    },
+    {
+      "image": "05b06c481952d6d2.jpg",
+      "actual": "screen_display",
+      "predicted": "laptop",
+      "confidence": 0.49297115206718445,
+      "correct": false
+    },
+    {
+      "image": "0646fb850d6442dd.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.6250027418136597,
+      "correct": true
+    },
+    {
+      "image": "06c109b237f4c178.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5241988897323608,
+      "correct": true
+    },
+    {
+      "image": "07e671cdec6fef5e.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8557307720184326,
+      "correct": true
+    },
+    {
+      "image": "0836a2a0b49e3d2d.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9101894497871399,
+      "correct": true
+    },
+    {
+      "image": "084e18032632b209.jpg",
+      "actual": "screen_display",
+      "predicted": "laptop",
+      "confidence": 0.6522481441497803,
+      "correct": false
+    },
+    {
+      "image": "08b744e9a5d68567.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8416659235954285,
+      "correct": true
+    },
+    {
+      "image": "09729ef7ea077267.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.6782520413398743,
+      "correct": false
+    },
+    {
+      "image": "0a678ff73119a4d8.jpg",
+      "actual": "screen_display",
+      "predicted": "tablet",
+      "confidence": 0.5674366354942322,
+      "correct": false
+    },
+    {
+      "image": "0bd3777165eaadd8.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8893284797668457,
+      "correct": true
+    },
+    {
+      "image": "0bfdef17703e0f1f.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.979081392288208,
+      "correct": true
+    },
+    {
+      "image": "0cd444167cbb23d1.jpg",
+      "actual": "screen_display",
+      "predicted": "laptop",
+      "confidence": 0.3452867567539215,
+      "correct": false
+    },
+    {
+      "image": "0d0d9250956083b5.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5275748372077942,
+      "correct": true
+    },
+    {
+      "image": "0d751bd6831082f2.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8452330231666565,
+      "correct": true
+    },
+    {
+      "image": "0d8898f445c9b7b9.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7483466267585754,
+      "correct": true
+    },
+    {
+      "image": "0da587c4ec00d514.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8578847646713257,
+      "correct": true
+    },
+    {
+      "image": "0dbc0e0e399c1f90.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9493653178215027,
+      "correct": true
+    },
+    {
+      "image": "0df14aae2fc1a2f5.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8706512451171875,
+      "correct": true
+    },
+    {
+      "image": "0e04a48b48afdfa1.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.6223835945129395,
+      "correct": true
+    },
+    {
+      "image": "0e71457d35b69725.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.47335416078567505,
+      "correct": true
+    },
+    {
+      "image": "0ea1549299380eec.jpg",
+      "actual": "screen_display",
+      "predicted": "tablet",
+      "confidence": 0.3117159307003021,
+      "correct": false
+    },
+    {
+      "image": "0f809ef9be91ecd6.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.971419632434845,
+      "correct": true
+    },
+    {
+      "image": "102eb4b4c89ae35f.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.49165594577789307,
+      "correct": false
+    },
+    {
+      "image": "11550167994ea3bb.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.901572585105896,
+      "correct": true
+    },
+    {
+      "image": "1208e1a85554737d.jpg",
+      "actual": "screen_display",
+      "predicted": "laptop",
+      "confidence": 0.7524831891059875,
+      "correct": false
+    },
+    {
+      "image": "12509661681bc7c8.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7748665809631348,
+      "correct": true
+    },
+    {
+      "image": "12904a676daf54c6.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.4322812259197235,
+      "correct": false
+    },
+    {
+      "image": "1296dd4bddd64817.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8570931553840637,
+      "correct": true
+    },
+    {
+      "image": "12c733770491a77d.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9705376029014587,
+      "correct": true
+    },
+    {
+      "image": "12e0fe63273c305d.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5651545524597168,
+      "correct": true
+    },
+    {
+      "image": "1344bf0230cdffab.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.47951266169548035,
+      "correct": false
+    },
+    {
+      "image": "13989b27aa80a9ca.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9926841855049133,
+      "correct": true
+    },
+    {
+      "image": "14ee8e8500db236e.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9569447040557861,
+      "correct": true
+    },
+    {
+      "image": "14f2707eea2409dc.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.973219633102417,
+      "correct": true
+    },
+    {
+      "image": "155ef354f487d29a.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.47844064235687256,
+      "correct": true
+    },
+    {
+      "image": "15c81182847323fa.jpg",
+      "actual": "screen_display",
+      "predicted": "laptop",
+      "confidence": 0.3890117108821869,
+      "correct": false
+    },
+    {
+      "image": "162e430a23c86c4b.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.881955087184906,
+      "correct": true
+    },
+    {
+      "image": "164d447eab4b08b5.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8678499460220337,
+      "correct": true
+    },
+    {
+      "image": "17656cc7da967a20.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8896446228027344,
+      "correct": true
+    },
+    {
+      "image": "17b24caf517560ce.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8299227952957153,
+      "correct": true
+    },
+    {
+      "image": "19399b34555c9ca1.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9119358658790588,
+      "correct": true
+    },
+    {
+      "image": "19e3f6c25df765bd.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.5879001617431641,
+      "correct": false
+    },
+    {
+      "image": "1a5b46a6651e2aa1.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7397365570068359,
+      "correct": true
+    },
+    {
+      "image": "1afc05c8e8b807bc.jpg",
+      "actual": "screen_display",
+      "predicted": "tablet",
+      "confidence": 0.5892658829689026,
+      "correct": false
+    },
+    {
+      "image": "1afe5e0d61b0ecc6.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.9190637469291687,
+      "correct": false
+    },
+    {
+      "image": "1bcc4f38521cf717.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9475219249725342,
+      "correct": true
+    },
+    {
+      "image": "1c86ea4f38b2daf3.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.3401128351688385,
+      "correct": true
+    },
+    {
+      "image": "1d25fcbd3f263df2.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.6449986100196838,
+      "correct": false
+    },
+    {
+      "image": "1d810b4d7f6e122b.jpg",
+      "actual": "screen_display",
+      "predicted": "laptop",
+      "confidence": 0.6300119757652283,
+      "correct": false
+    },
+    {
+      "image": "1d98391ba7944ca8.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.6219936609268188,
+      "correct": false
+    },
+    {
+      "image": "1dab892ffe8b61cc.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.4611818492412567,
+      "correct": true
+    },
+    {
+      "image": "1dad8f53b8f7f1e1.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5577560663223267,
+      "correct": true
+    },
+    {
+      "image": "1eb73ab03ead67db.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.46216297149658203,
+      "correct": true
+    },
+    {
+      "image": "1f11822a69eac1e6.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9570533633232117,
+      "correct": true
+    },
+    {
+      "image": "1f74157203a5b208.jpg",
+      "actual": "screen_display",
+      "predicted": "tablet",
+      "confidence": 0.6080199480056763,
+      "correct": false
+    },
+    {
+      "image": "1ff0702d07e463c6.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.6609893441200256,
+      "correct": true
+    },
+    {
+      "image": "202fcb8806930222.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5725076198577881,
+      "correct": true
+    },
+    {
+      "image": "2099dae485e0e07a.jpg",
+      "actual": "screen_display",
+      "predicted": "tablet",
+      "confidence": 0.6593828201293945,
+      "correct": false
+    },
+    {
+      "image": "20f76966728b9eb0.jpg",
+      "actual": "screen_display",
+      "predicted": "tablet",
+      "confidence": 0.5652406215667725,
+      "correct": false
+    },
+    {
+      "image": "21fb6a1e188a4ea9.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7582420706748962,
+      "correct": true
+    },
+    {
+      "image": "224d24d9fbb4a477.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.6822698712348938,
+      "correct": false
+    },
+    {
+      "image": "22fd4c3717d5f305.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9879727363586426,
+      "correct": true
+    },
+    {
+      "image": "2320afd5703cbedd.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5464451909065247,
+      "correct": true
+    },
+    {
+      "image": "241ab9fe3c011691.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.6869866847991943,
+      "correct": true
+    },
+    {
+      "image": "24a29f88e8c02237.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7508192658424377,
+      "correct": true
+    },
+    {
+      "image": "24fd5374dd3aa5be.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9335312247276306,
+      "correct": true
+    },
+    {
+      "image": "24fff5e727c21e8f.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9229752421379089,
+      "correct": true
+    },
+    {
+      "image": "2602d66e3cbfecf9.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.977647066116333,
+      "correct": true
+    },
+    {
+      "image": "263314e9b4096ba5.jpg",
+      "actual": "screen_display",
+      "predicted": "tablet",
+      "confidence": 0.5144940614700317,
+      "correct": false
+    },
+    {
+      "image": "263855bc9c5449cd.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8429462313652039,
+      "correct": true
+    },
+    {
+      "image": "2664ce031523e2f9.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.4266951382160187,
+      "correct": true
+    },
+    {
+      "image": "267dd14a1d68ff62.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8250179886817932,
+      "correct": true
+    },
+    {
+      "image": "26d995aae6afc6c3.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5291171669960022,
+      "correct": true
+    },
+    {
+      "image": "2744d2cf9538e06f.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5296938419342041,
+      "correct": true
+    },
+    {
+      "image": "27ce848934f27ed9.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.786350667476654,
+      "correct": true
+    },
+    {
+      "image": "27dbeb83ac63352d.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.3655286133289337,
+      "correct": true
+    },
+    {
+      "image": "27e16931688a780f.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7827780246734619,
+      "correct": true
+    },
+    {
+      "image": "281788974e5a023e.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9793784022331238,
+      "correct": true
+    },
+    {
+      "image": "289a988c35d57894.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.883456826210022,
+      "correct": true
+    },
+    {
+      "image": "2ada0f210bd0e08a.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9899909496307373,
+      "correct": true
+    },
+    {
+      "image": "2b3d8c416e65cc7e.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9704957604408264,
+      "correct": true
+    },
+    {
+      "image": "2c11ad18e93ab0b2.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9081857204437256,
+      "correct": true
+    },
+    {
+      "image": "2c137906fce91825.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9508621692657471,
+      "correct": true
+    },
+    {
+      "image": "2dd6265bff1036d2.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9672102928161621,
+      "correct": true
+    },
+    {
+      "image": "305fc1e04c564a2e.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.985496461391449,
+      "correct": true
+    },
+    {
+      "image": "32a5a75aff331bbc.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.927160382270813,
+      "correct": true
+    },
+    {
+      "image": "32de943e506f5f39.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8989819288253784,
+      "correct": true
+    },
+    {
+      "image": "337a254cb69a2a43.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8324052691459656,
+      "correct": true
+    },
+    {
+      "image": "3426d6628aa49e00.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7366284728050232,
+      "correct": true
+    },
+    {
+      "image": "35f4d459724f5518.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7758063673973083,
+      "correct": true
+    },
+    {
+      "image": "371424a73ec0b58f.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.8671754598617554,
+      "correct": true
+    },
+    {
+      "image": "37eb0154fdf2e4eb.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.6379548907279968,
+      "correct": true
+    },
+    {
+      "image": "37fa7c5f03cbb21d.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.7750039100646973,
+      "correct": true
+    },
+    {
+      "image": "38371965d46a69c4.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.7737938165664673,
+      "correct": false
+    },
+    {
+      "image": "38ff3b4027e31e77.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.9629120826721191,
+      "correct": true
+    },
+    {
+      "image": "39988dc3a63d8751.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.5159567594528198,
+      "correct": true
+    },
+    {
+      "image": "3a0d6580cad6bffc.jpg",
+      "actual": "screen_display",
+      "predicted": "screen_display",
+      "confidence": 0.783805787563324,
+      "correct": true
+    },
+    {
+      "image": "3a3255202e45c0ff.jpg",
+      "actual": "screen_display",
+      "predicted": "phone",
+      "confidence": 0.6680397391319275,
+      "correct": false
+    }
+  ],
+  "limitations": [
+    "The threshold was selected on this fixed test set and therefore needs a fresh post-launch audit.",
+    "Known-safe means the image resembles one of four ordinary device classes; it is not proof that the room is safe.",
+    "Low confidence routes to heuristics and sensors rather than being treated as an error."
+  ]
+}

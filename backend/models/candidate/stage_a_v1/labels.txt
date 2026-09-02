@@ -1,0 +1,5 @@
+laptop
+monitor
+phone
+tablet
+tv_monitor
